@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: black;
+    color: white;
+    position: fixed;
+}
+
+#botonMenu{
+    width: 42px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 180px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px auto;   
+}
+
+#botonComoComprar{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#carrito{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.banner .imgBanner{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.contenedorCategoriasHome {
+    width: 100%;
+}
+
+.contenedorCategoriasHome .tituloCategorias{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.contenedorCategoriasHome .contenedorBotonesCategoria{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contenedorCategoriasHome .contenedorBotonesCategoria a{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+.contenedorCategoriasHome .contenedorBotonesCategoria a:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+footer h1{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.contenedorMenu{
+    width: 100%;
+    margin-bottom: 280px;
+    padding-top: 60px;
+}
+
+.contenedorMenu .contenedorItemsMenu{
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(66, 66, 66);
+}
+
+.contenedorMenu .contenedorItemsMenu .itemMenu{ 
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: x-large;
+}
+
+.contenedorMenu .contenedorItemsMenu .itemMenu:hover{
+    font-weight: bold;
+}
+
+.contenedorColumnaFiltrosYProductos{
+    padding-top: 60px;
+    display: flex;
+    margin-bottom: 2%;
+    height: 500px;
+}
+
+.contenedorColumnaFiltros{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.contenedorColumnaFiltros ol{
+    list-style: none;
+}
+
+.contenedorColumnaFiltros a{
+    color: black;
+}
+
+.contenedorColumnaFiltros .contenedorFiltroTiempoDelivery{
+    margin-top: 10%;
+}
+
+.contenedorColumnaFiltros .contenedorFiltrosPrecio{
+    margin-top: 10%;
+}
+
+.contenedorProductos{
+    width: 100%;
+    display: flex;
+}
+
+.contenedorProductos .tarjetaProducto{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.contenedorProductos .tarjetaProducto .contenedorFotoProducto .fotoProducto{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedorProductos .tarjetaProducto .contenedorBotonAgregar .botonAgregar{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.contenedorProductos .tarjetaProducto .contenedorBotonAgregar .botonAgregar:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+.contenedorCarrito{
+    padding-top: 60px;
+    padding-bottom: 145px;
+}   
+
+.contenedorCarrito .tarjetaProductoCarrito{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.contenedorCarrito .tarjetaProductoCarrito .contenedorFotoProducto{
+    width: 120px;
+    height: 120px;
+    margin-right: 1%
+}
+
+.contenedorCarrito .tarjetaProductoCarrito .contenedorFotoProducto .fotoProducto{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorCarrito .contenedorTotalYBotonComprar{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+.contenedorCarrito .contenedorTotalYBotonComprar .botonComprar{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 1%;
+    width: 70px;
+}
+
+.contenedorCarrito .contenedorTotalYBotonComprar .botonComprar:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+.contenedorInfoComoComprar{
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.contenedorInfoComoComprar .tituloComoComprar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.contenedorInfoComoComprar .contenedorPasosComoComprar{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorInfoComoComprar .contenedorPasosComoComprar h3{
+    margin: 10%;
+}
+
+.contenedorInfoComoComprar a{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: x-large;
+}
+
+.contenedorInfoComoComprar a:hover{
+    font-weight: bold;
+}
